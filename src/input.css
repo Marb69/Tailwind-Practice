@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@layer components {
+
+
+  .open-menu{
+
+    top: 0;
+    opacity: 100;
+    
+   
+  }
+  #span1.exit1:nth-child(1){
+
+    transform: translateY(6px) rotate(48deg);
+        
+  }
+
+    #span2.exit2:nth-child(2){
+
+    opacity: 0;
+
+  }
+     #span3.exit3:nth-child(3){
+
+    transform: translateY(-7px) rotate(-45deg);
+
+  }
+
+  
+}

@@ -3,6 +3,20 @@
 @layer components {
 
 
+  .over{
+
+
+    position: absolute;
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(73, 127, 227, 0.57));
+    height:300vh;
+    width: 100%;
+    top:-9999;
+    right: 0;
+    z-index:-1;
+    opacity: 3;
+    transition: all .3s ease-in-out;
+
+  }
   .open-menu{
 
     top: 0;
